@@ -1,5 +1,5 @@
 <h1>NewsFeed Project</h1> <br/>
-Link => https://newsfeedazure.azurewebsites.net/ 🎉 <br/>
-Projekt => ./NewsFeed ☔<br/>
-Dokumentacja Techniczna => ./tech 🙏<br/>
-C# ASP.NET EF SQL => 💖 Azure 💖
+<br>Link</br> => https://newsfeedazure.azurewebsites.net/ 🎉 <br/>
+<br>Projekt</br> => ./NewsFeed ☔<br/>
+<br>Dokumentacja Techniczna</br> => ./tech 🙏<br/><br/>
+<h2>C# ASP.NET EF SQL => 💖 Azure 💖</h2>
