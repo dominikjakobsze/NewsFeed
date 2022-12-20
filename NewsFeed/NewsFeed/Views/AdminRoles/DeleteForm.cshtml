@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["IsAdmin"] = true;
+}
+@{
+    var User = ViewBag.User;
+}
+
+<div class="container text-center mt-5 mb-5">
+    <h1>Usuń Użytkownika</h1>
+</div>
+
+<div class="container mt-5 pt-5">
+    <form action="/Admin/Users/Delete/@User.Id" method="post">
+        <button type="submit" class="btn btn-primary mt-5">Usuń Użytkownika</button>
+    </form>
+</div>

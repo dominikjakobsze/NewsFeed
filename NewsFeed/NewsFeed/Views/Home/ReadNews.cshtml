@@ -1,0 +1,73 @@
+﻿@{
+    ViewData["Title"] = "Reading News";
+    var ReadNews = ViewBag.ReadNews;
+    var Comments = ViewBag.Comments;
+    var CommentExist = ViewBag.CommentExist;
+}
+<div class="container mt-5 mb-5">
+    <div class="row">
+        <div class="col-12 d-flex justify-content-center mt-5 mb-5">
+            <img class="img-fluid rounded" src="~/images/@ReadNews.ImgPath" />
+        </div>
+        <div class="col-12 pb-5 border-bottom">
+            <h1>@ReadNews.Title</h1>
+        </div>
+        <div class="col-12 mt-5 mb-5">
+            <span class="text-start">@Html.Raw(ReadNews.Article)</span>
+        </div>
+    </div>
+</div>
+
+@if (CommentExist == false)
+{
+    <div class="container mt-5 mb-5">
+        <div class="row">
+            <div class="col-12">
+                <h5>Brak komentarzy :( Skomentuj!</h5>
+            </div>
+        </div>
+    </div>
+    <form action="/Comment/Add/@ReadNews.Id" method="post">
+        <div class="form-group mt-5">
+            <label class="fw-bold pb-2" for="article">Dodaj Komentarz</label>
+            <textarea class="form-control" name="content" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary mt-5">Dodaj</button>
+    </form>
+}else{
+    <div class="container mt-5 mb-5">
+        <div class="row">
+            <div class="col-12">
+                <h5>Sekcja Komentarzy</h5>
+            </div>
+            <div class="col-12">
+                <a href="/R/Comments/@ReadNews.Id">Zobacz Wszystkie Komentarze</a>
+            </div>
+        </div>
+    </div>
+    <form action="/Comment/Add/@ReadNews.Id" method="post">
+        <div class="form-group mt-5">
+            <label class="fw-bold pb-2" for="article">Dodaj Komentarz</label>
+            <textarea class="form-control" name="content" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary mt-5">Dodaj</button>
+    </form>
+    <div class="container">
+        <div class="row g-5">
+            @foreach (var item in Comments)
+            {
+                <div class="col-12 p-5 d-flex justify-content-center align-items-center">
+                    <div class="row d-flex justify-content-center align-items-center g-3">
+                        <div class="col-5 col-md-1 d-flex justify-content-center align-items-center">
+                            <img src="~/images/user.png" class="img-fluid" />
+                        </div>
+                        <div class="col-12 col-md-10 d-flex justify-content-center align-items-center">@item.Content</div>
+                        <div class="col-12 d-flex justify-content-center align-items-center fw-bold">
+                            Dodany przez: @item.User_Id
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+}

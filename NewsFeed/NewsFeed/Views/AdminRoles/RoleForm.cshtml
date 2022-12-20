@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["IsAdmin"] = true;
+    var User = ViewBag.User;
+}
+<div class="container text-center mt-5 mb-5">
+    <h1>Zmień Uprawnienia Użytkownika</h1>
+</div>
+
+<div class="container mt-5 pt-5">
+    <form action="/Admin/Users/RoleEdit/@User.Id" method="post">
+        <div class="form-group mt-5">
+            <label class="fw-bold pb-2" for="uprawnienia">Jaką rolę przypisać użytkownikowi?</label>
+            <select class="form-select" name="uprawnienia">
+                <option value="admin">admin</option>
+                <option selected value="user">user</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary mt-5">Zmień</button>
+    </form>
+</div>

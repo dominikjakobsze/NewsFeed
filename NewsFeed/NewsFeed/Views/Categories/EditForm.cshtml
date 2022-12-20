@@ -1,0 +1,20 @@
+﻿@model NewsFeed.Models.Category
+@{
+    var CategoryEditFormItemView = ViewBag.CategoryEditFormItem;
+}
+@{
+    ViewData["IsAdmin"] = true;
+}
+<div class="container text-center mt-5 mb-5">
+    <h1>Edytuj Kategorie</h1>
+</div>
+
+<div class="container mt-5 pt-5">
+    <form action="/Admin/Categories/Edit/@CategoryEditFormItemView.Id" method="post">
+        <div class="form-group">
+            <label class="fw-bold pb-2" for="nazwa">Podaj nową nazwę kategorii</label>
+            <input type="text" class="form-control" name="nazwa" placeholder="@CategoryEditFormItemView.Name">
+        </div>
+        <button type="submit" class="btn btn-primary mt-5">Zmień</button>
+    </form>
+</div>

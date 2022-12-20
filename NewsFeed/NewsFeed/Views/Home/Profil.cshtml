@@ -1,0 +1,64 @@
+﻿@{
+    var user = ViewBag.User;
+    var comments = ViewBag.Comments;
+    var role = ViewBag.Role;
+    var nonews = ViewBag.Nonews;
+    var nocomments = ViewBag.Nocomments;
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container mt-5 d-flex align-items-center justify-content-center py-3">
+    <h1>Właśnie znajdujesz się na swoim profilu</h1>
+</div>
+
+<div class="container mt-2">
+    <div class="row d-flex align-items-center justify-content-center g-3">
+        <div class="col-4 col-md-2">
+            <img class="img-fluid" src="~/images/user.png"/>
+        </div>
+        <div class="col-12"></div>
+        <div class="col-12">
+            <div class="row">
+                <div class="col-12 col-md-4 fw-bold d-flex justify-content-md-end">Twój Email:</div>
+                <div class="col-12 col-md-4">@user.UserName</div>
+            </div>
+        </div>
+        <div class="col-12">
+            <div class="row">
+                <div class="col-12 col-md-4 fw-bold d-flex justify-content-md-end">Napisałeś już:</div>
+                <div class="col-12 col-md-4">@nocomments komentarzy w @nonews newsach</div>
+            </div>
+        </div>
+        <div class="col-12">
+            <div class="row">
+                <div class="col-12 col-md-4 fw-bold d-flex justify-content-md-end">Twój poziom uprawnień:</div>
+                @if (role == true)
+                {
+                    <div class="col-12 col-md-4">admin</div>
+                }else{
+                    <div class="col-12 col-md-4">użytkownik</div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-5 d-flex align-items-center justify-content-center py-3">
+    <h3>Ostatnia aktywność</h3>
+</div>
+
+<div class="container mt-5 d-flex align-items-center justify-content-center py-3">
+    <div class="row g-5 d-flex align-items-center justify-content-center">
+        @foreach(var item in comments){
+
+            <div class="col-12 d-flex align-items-center justify-content-center">
+                <div class="row d-flex align-items-center justify-content-center border-bottom pb-5">
+                    <div class="col-12 col-md-8 d-flex align-items-center justify-content-center">@item.Content</div>
+                    <div class="col-6 col-md-2 d-flex align-items-center justify-content-center mt-5 mt-md-0">
+                        <a href="/R/News/@item.News_Id" class="btn btn-primary">Idź do Newsa</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

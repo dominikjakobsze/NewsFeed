@@ -1,0 +1,16 @@
+﻿@model NewsFeed.Models.News
+@{
+    var NewsDeleteFormItem = ViewBag.NewsDeleteFormItem;
+    ViewData["IsAdmin"] = true;
+}
+
+<div class="container text-center mt-5 mb-5">
+    <h1>Usuń Newsa</h1>
+</div>
+
+<div class="container mt-5 pt-5">
+    <form action="/Admin/News/Delete/@NewsDeleteFormItem.Id" method="post">
+        <h5>Potwierdzić usunięcie?</h5>
+        <button type="submit" class="btn btn-primary mt-5">Usuń</button>
+    </form>
+</div>

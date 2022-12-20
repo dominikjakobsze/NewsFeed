@@ -1,0 +1,64 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    var ListaNewsow = ViewBag.ListaNewsow;
+    var DisplayPaginacja = ViewBag.DisplayPaginacja;
+    var CurrentPage = ViewBag.CurrentPage;
+    var Pagination = ViewBag.Pagination;
+    var CurrentCategory = ViewBag.CurrentCategory;
+}
+
+@foreach(var item in ListaNewsow){
+    <div class="container mt-5">
+        <div class="row mt-3">
+            <div class="col-12 mt-5 mb-5 pb-5 border-bottom text-center text-md-start">
+                <h1>
+                    <a class="text-dark" href="/News/C/@item.Key/P/1">@item.Key</a>
+                </h1>
+            </div>
+        </div>
+        <div class="row mt-3 d-flex flex-row justify-content-start align-items-stretch gap-5">
+            @foreach(var news in item.Value){
+                <div class="col-12 col-md-5 mx-auto">
+                    <div class="card w-100">
+                        <img class="card-img-top" src="~/images/@news.ImgPath" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">@news.Title</h5>
+                            <p class="card-text">@news.Article</p>
+                            <a href="/R/News/@news.Id" class="btn btn-primary">Czytaj</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+}
+@if (DisplayPaginacja == true)
+{
+    <div class="container mt-5 pt-5">
+        <div class="row d-flex flex-row align-items-center justify-content-center gap-2">
+            <div class="col-12 col-md-3">
+                <div class="form-group">
+                    <select class="form-control" id="pagination">
+                        @for (int i = 1; i <= Pagination; i++)
+                        {
+                            @if (CurrentPage == i)
+                            {
+                                <option selected value="@i">Strona @i</option>
+                            }
+                            else
+                            {
+                                <option value="@i">Strona @i</option>
+                            }
+                        }
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+<script type="text/javascript">
+    const pagination = document.querySelector('#pagination');
+    pagination.addEventListener('change', (e) => {
+        window.location.href = `/News/C/@CurrentCategory/P/${e.target.value}`;
+    })
+</script>

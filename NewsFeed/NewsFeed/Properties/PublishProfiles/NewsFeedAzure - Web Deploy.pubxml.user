@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMvluQ3z43ESOzpyK4xGKOAAAAAACAAAAAAAQZgAAAAEAACAAAAD+TGs87YuGDBFrpz7/Y3qV+Pth0kExNot7rlGW7LIqVQAAAAAOgAAAAAIAACAAAACTouOaQTZGN1EnmunrsBwVLFJ1kSBrHIY4ECwwnQsGGoAAAAC+7q7IqiaRC5ZxMjGfaIEkorC0prOJuZAuJkXXfBb0FkcyPli8gdX2JZ77zVQVrpqm4M+lQmnMYOsuE8meEPQvdg+9uH4pWZXSTRL4DBOyYCw8Fcw/tfIC1L7inSsbNKCW2/JBeuC5IbDDOxVHaxLgc3hYRLRadzOQYITMqZPeJUAAAABDwiNiO3KUaYNCbM12ddVdX0c3bUhp98ZOvautAU2UIwGx9tuJNmJylIzTYyqPcaXqHeZbnsp288vyxf1tbeUT</EncryptedPassword>
+    <History>True|2022-12-20T18:59:34.6241983Z;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:newsfeeddbserver.database.windows.net,1433%3bInitial Catalog=NewsFeed_db%3bUser Id=dominikjakobsze%40newsfeeddbserver%3bPassword=SuperSonic123!%40#</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="NewsFeed.Data.ApplicationDbContext">
+      <Value>Data Source=tcp:newsfeeddbserver.database.windows.net,1433%3bInitial Catalog=NewsFeed_db%3bUser Id=dominikjakobsze%40newsfeeddbserver%3bPassword=SuperSonic123!%40#</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

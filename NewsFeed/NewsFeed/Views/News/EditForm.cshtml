@@ -1,0 +1,50 @@
+﻿@model NewsFeed.Models.News
+@{
+    var specifiedNews = ViewBag.SpecifiedNews;
+    var kategorie = ViewBag.Kategorie;
+    ViewData["IsAdmin"] = true;
+}
+<div class="container text-center mt-5 mb-5">
+    <h1>Edytuj Newsa</h1>
+</div>
+
+<div class="container mt-5 pt-5">
+    <form action="/Admin/News/Edit/@specifiedNews.Id" method="post" enctype="multipart/form-data">
+        <div class="form-group mt-5">
+            <label class="fw-bold pb-2" for="title">Jak News ma się nazywać?</label>
+            <input type="text" class="form-control" name="title" value="@specifiedNews.Title">
+        </div>
+        <div class="form-group mt-5">
+            <label class="fw-bold pb-2" for="category">Do jakiej kategorii ma należeć News?</label>
+            <select class="form-select" name="category">
+                @foreach (var item in kategorie)
+                {
+                    @if (item.Id == specifiedNews.Category_Id){
+                        <option selected value="@item.Id">@item.Name</option>
+                    }
+                    @if (item.Id != specifiedNews.Category_Id)
+                    {
+                        <option value="@item.Id">@item.Name</option>
+                    }
+                }
+            </select>
+        </div>
+        <div class="form-group mt-5">
+            <label class="fw-bold pb-2" for="article">Jaką treść ma mieć News?</label>
+            <textarea class="form-control" name="article" rows="3">@specifiedNews.Article</textarea>
+        </div>
+        <div class="form-group mt-5">
+            <label class="fw-bold pb-2 w-100" for="baner">Dołącz jakieś ciekawe zdjęcie!</label>
+            <input type="file" name="baner" accept="image/*">
+        </div>
+        <div class="form-group mt-5">
+            <div class="row">
+                <div class="col-12 text-center mt-5">Aktualne zdjęcie</div>
+                <div class="col-12 col-md-5 mx-auto mt-5">
+                    <img class="img-fluid rounded" src="~/images/@specifiedNews.ImgPath" />
+                </div>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary mt-5">Zmień</button>
+    </form>
+</div>

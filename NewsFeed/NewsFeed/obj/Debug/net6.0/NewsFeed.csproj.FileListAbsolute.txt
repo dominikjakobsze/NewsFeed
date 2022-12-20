@@ -1,0 +1,1092 @@
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\appsettings.Development.json
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\appsettings.json
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\NewsFeed.staticwebassets.runtime.json
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\NewsFeed.exe
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\NewsFeed.deps.json
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\NewsFeed.runtimeconfig.json
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\NewsFeed.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\NewsFeed.pdb
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\Humanizer.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\MessagePack.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\MessagePack.Annotations.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.Build.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.Build.Framework.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.CodeAnalysis.Features.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Features.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.NET.StringTools.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\dotnet-aspnet-codegenerator-design.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\Newtonsoft.Json.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\NuGet.Common.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\NuGet.Configuration.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\NuGet.Frameworks.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\NuGet.LibraryModel.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\NuGet.Packaging.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\NuGet.ProjectModel.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\NuGet.Protocol.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\NuGet.Versioning.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\System.Composition.AttributedModel.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\System.Composition.Convention.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\System.Composition.Hosting.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\System.Composition.Runtime.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\System.Composition.TypedParts.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\System.Drawing.Common.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\System.Runtime.Caching.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\System.Security.Permissions.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\System.Windows.Extensions.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+I:\proc3\NewsFeed\NewsFeed\obj\Debug\net6.0\NewsFeed.csproj.AssemblyReference.cache
+I:\proc3\NewsFeed\NewsFeed\obj\Debug\net6.0\NewsFeed.GeneratedMSBuildEditorConfig.editorconfig
+I:\proc3\NewsFeed\NewsFeed\obj\Debug\net6.0\NewsFeed.AssemblyInfoInputs.cache
+I:\proc3\NewsFeed\NewsFeed\obj\Debug\net6.0\NewsFeed.AssemblyInfo.cs
+I:\proc3\NewsFeed\NewsFeed\obj\Debug\net6.0\NewsFeed.csproj.CoreCompileInputs.cache
+I:\proc3\NewsFeed\NewsFeed\obj\Debug\net6.0\NewsFeed.MvcApplicationPartsAssemblyInfo.cs
+I:\proc3\NewsFeed\NewsFeed\obj\Debug\net6.0\NewsFeed.MvcApplicationPartsAssemblyInfo.cache
+I:\proc3\NewsFeed\NewsFeed\obj\Debug\net6.0\NewsFeed.RazorAssemblyInfo.cache
+I:\proc3\NewsFeed\NewsFeed\obj\Debug\net6.0\NewsFeed.RazorAssemblyInfo.cs
+I:\proc3\NewsFeed\NewsFeed\obj\Debug\net6.0\staticwebassets.build.json
+I:\proc3\NewsFeed\NewsFeed\obj\Debug\net6.0\staticwebassets.development.json
+I:\proc3\NewsFeed\NewsFeed\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+I:\proc3\NewsFeed\NewsFeed\obj\Debug\net6.0\scopedcss\bundle\NewsFeed.styles.css
+I:\proc3\NewsFeed\NewsFeed\obj\Debug\net6.0\scopedcss\projectbundle\NewsFeed.bundle.scp.css
+I:\proc3\NewsFeed\NewsFeed\obj\Debug\net6.0\NewsFeed.csproj.CopyComplete
+I:\proc3\NewsFeed\NewsFeed\obj\Debug\net6.0\NewsFeed.dll
+I:\proc3\NewsFeed\NewsFeed\obj\Debug\net6.0\refint\NewsFeed.dll
+I:\proc3\NewsFeed\NewsFeed\obj\Debug\net6.0\NewsFeed.pdb
+I:\proc3\NewsFeed\NewsFeed\obj\Debug\net6.0\NewsFeed.genruntimeconfig.cache
+I:\proc3\NewsFeed\NewsFeed\obj\Debug\net6.0\ref\NewsFeed.dll
+I:\proc3\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\appsettings.Development.json
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\appsettings.json
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\NewsFeed.staticwebassets.runtime.json
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\NewsFeed.exe
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\NewsFeed.deps.json
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\NewsFeed.runtimeconfig.json
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\NewsFeed.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\NewsFeed.pdb
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\Humanizer.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\MessagePack.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\MessagePack.Annotations.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.Build.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.Build.Framework.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.CodeAnalysis.Features.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Features.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.NET.StringTools.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\dotnet-aspnet-codegenerator-design.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\Newtonsoft.Json.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\NuGet.Common.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\NuGet.Configuration.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\NuGet.Frameworks.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\NuGet.LibraryModel.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\NuGet.Packaging.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\NuGet.ProjectModel.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\NuGet.Protocol.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\NuGet.Versioning.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\System.Composition.AttributedModel.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\System.Composition.Convention.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\System.Composition.Hosting.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\System.Composition.Runtime.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\System.Composition.TypedParts.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\System.Drawing.Common.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\System.Runtime.Caching.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\System.Security.Permissions.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\System.Windows.Extensions.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\obj\Debug\net6.0\NewsFeed.csproj.AssemblyReference.cache
+I:\proc3\c# projekt\NewsFeed\NewsFeed\obj\Debug\net6.0\NewsFeed.GeneratedMSBuildEditorConfig.editorconfig
+I:\proc3\c# projekt\NewsFeed\NewsFeed\obj\Debug\net6.0\NewsFeed.AssemblyInfoInputs.cache
+I:\proc3\c# projekt\NewsFeed\NewsFeed\obj\Debug\net6.0\NewsFeed.AssemblyInfo.cs
+I:\proc3\c# projekt\NewsFeed\NewsFeed\obj\Debug\net6.0\NewsFeed.csproj.CoreCompileInputs.cache
+I:\proc3\c# projekt\NewsFeed\NewsFeed\obj\Debug\net6.0\NewsFeed.MvcApplicationPartsAssemblyInfo.cs
+I:\proc3\c# projekt\NewsFeed\NewsFeed\obj\Debug\net6.0\NewsFeed.MvcApplicationPartsAssemblyInfo.cache
+I:\proc3\c# projekt\NewsFeed\NewsFeed\obj\Debug\net6.0\NewsFeed.RazorAssemblyInfo.cache
+I:\proc3\c# projekt\NewsFeed\NewsFeed\obj\Debug\net6.0\NewsFeed.RazorAssemblyInfo.cs
+I:\proc3\c# projekt\NewsFeed\NewsFeed\obj\Debug\net6.0\staticwebassets.build.json
+I:\proc3\c# projekt\NewsFeed\NewsFeed\obj\Debug\net6.0\staticwebassets.development.json
+I:\proc3\c# projekt\NewsFeed\NewsFeed\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+I:\proc3\c# projekt\NewsFeed\NewsFeed\obj\Debug\net6.0\scopedcss\bundle\NewsFeed.styles.css
+I:\proc3\c# projekt\NewsFeed\NewsFeed\obj\Debug\net6.0\scopedcss\projectbundle\NewsFeed.bundle.scp.css
+I:\proc3\c# projekt\NewsFeed\NewsFeed\obj\Debug\net6.0\NewsFeed.csproj.CopyComplete
+I:\proc3\c# projekt\NewsFeed\NewsFeed\obj\Debug\net6.0\NewsFeed.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\obj\Debug\net6.0\refint\NewsFeed.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\obj\Debug\net6.0\NewsFeed.pdb
+I:\proc3\c# projekt\NewsFeed\NewsFeed\obj\Debug\net6.0\NewsFeed.genruntimeconfig.cache
+I:\proc3\c# projekt\NewsFeed\NewsFeed\obj\Debug\net6.0\ref\NewsFeed.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\appsettings.Development.json
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\appsettings.json
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\NewsFeed.staticwebassets.runtime.json
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\NewsFeed.exe
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\NewsFeed.deps.json
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\NewsFeed.runtimeconfig.json
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\NewsFeed.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\NewsFeed.pdb
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\Humanizer.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\MessagePack.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\MessagePack.Annotations.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.Build.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.Build.Framework.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.CodeAnalysis.Features.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Features.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.NET.StringTools.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\dotnet-aspnet-codegenerator-design.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\Newtonsoft.Json.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\NuGet.Common.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\NuGet.Configuration.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\NuGet.Frameworks.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\NuGet.LibraryModel.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\NuGet.Packaging.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\NuGet.ProjectModel.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\NuGet.Protocol.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\NuGet.Versioning.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\System.Composition.AttributedModel.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\System.Composition.Convention.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\System.Composition.Hosting.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\System.Composition.Runtime.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\System.Composition.TypedParts.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\System.Drawing.Common.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\System.Runtime.Caching.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\System.Security.Permissions.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\System.Windows.Extensions.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\obj\Debug\net6.0\NewsFeed.csproj.AssemblyReference.cache
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\obj\Debug\net6.0\NewsFeed.GeneratedMSBuildEditorConfig.editorconfig
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\obj\Debug\net6.0\NewsFeed.AssemblyInfoInputs.cache
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\obj\Debug\net6.0\NewsFeed.AssemblyInfo.cs
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\obj\Debug\net6.0\NewsFeed.csproj.CoreCompileInputs.cache
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\obj\Debug\net6.0\NewsFeed.MvcApplicationPartsAssemblyInfo.cs
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\obj\Debug\net6.0\NewsFeed.MvcApplicationPartsAssemblyInfo.cache
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\obj\Debug\net6.0\NewsFeed.RazorAssemblyInfo.cache
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\obj\Debug\net6.0\NewsFeed.RazorAssemblyInfo.cs
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\obj\Debug\net6.0\staticwebassets.build.json
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\obj\Debug\net6.0\staticwebassets.development.json
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\obj\Debug\net6.0\scopedcss\bundle\NewsFeed.styles.css
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\obj\Debug\net6.0\scopedcss\projectbundle\NewsFeed.bundle.scp.css
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\obj\Debug\net6.0\NewsFeed.csproj.CopyComplete
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\obj\Debug\net6.0\NewsFeed.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\obj\Debug\net6.0\refint\NewsFeed.dll
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\obj\Debug\net6.0\NewsFeed.pdb
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\obj\Debug\net6.0\NewsFeed.genruntimeconfig.cache
+I:\proc3\c# projekt\NewsFeed\NewsFeed\NewsFeed\obj\Debug\net6.0\ref\NewsFeed.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\appsettings.Development.json
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\appsettings.json
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\NewsFeed.staticwebassets.runtime.json
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\NewsFeed.exe
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\NewsFeed.deps.json
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\NewsFeed.runtimeconfig.json
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\NewsFeed.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\NewsFeed.pdb
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\Humanizer.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\MessagePack.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\MessagePack.Annotations.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.Build.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.Build.Framework.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.CodeAnalysis.Features.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Features.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.NET.StringTools.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\dotnet-aspnet-codegenerator-design.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\Newtonsoft.Json.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\NuGet.Common.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\NuGet.Configuration.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\NuGet.Frameworks.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\NuGet.LibraryModel.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\NuGet.Packaging.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\NuGet.ProjectModel.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\NuGet.Protocol.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\NuGet.Versioning.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\System.Composition.AttributedModel.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\System.Composition.Convention.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\System.Composition.Hosting.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\System.Composition.Runtime.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\System.Composition.TypedParts.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\System.Drawing.Common.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\System.Runtime.Caching.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\System.Security.Permissions.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\System.Windows.Extensions.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\obj\Debug\net6.0\NewsFeed.csproj.AssemblyReference.cache
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\obj\Debug\net6.0\NewsFeed.GeneratedMSBuildEditorConfig.editorconfig
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\obj\Debug\net6.0\NewsFeed.AssemblyInfoInputs.cache
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\obj\Debug\net6.0\NewsFeed.AssemblyInfo.cs
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\obj\Debug\net6.0\NewsFeed.csproj.CoreCompileInputs.cache
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\obj\Debug\net6.0\NewsFeed.MvcApplicationPartsAssemblyInfo.cs
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\obj\Debug\net6.0\NewsFeed.MvcApplicationPartsAssemblyInfo.cache
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\obj\Debug\net6.0\NewsFeed.RazorAssemblyInfo.cache
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\obj\Debug\net6.0\NewsFeed.RazorAssemblyInfo.cs
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\obj\Debug\net6.0\staticwebassets.build.json
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\obj\Debug\net6.0\staticwebassets.development.json
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\obj\Debug\net6.0\scopedcss\bundle\NewsFeed.styles.css
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\obj\Debug\net6.0\scopedcss\projectbundle\NewsFeed.bundle.scp.css
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\obj\Debug\net6.0\NewsFeed.csproj.CopyComplete
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\obj\Debug\net6.0\NewsFeed.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\obj\Debug\net6.0\refint\NewsFeed.dll
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\obj\Debug\net6.0\NewsFeed.pdb
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\obj\Debug\net6.0\NewsFeed.genruntimeconfig.cache
+I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\obj\Debug\net6.0\ref\NewsFeed.dll

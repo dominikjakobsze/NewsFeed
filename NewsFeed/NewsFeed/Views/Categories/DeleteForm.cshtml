@@ -1,0 +1,18 @@
+﻿@model NewsFeed.Models.Category
+@{
+    ViewData["IsAdmin"] = true;
+}
+@{
+    var CategoryDeleteFormItemView = ViewBag.CategoryDeleteFormItem;
+}
+
+<div class="container text-center mt-5 mb-5">
+    <h1>Usuń Kategorie</h1>
+</div>
+
+<div class="container mt-5 pt-5">
+    <form action="/Admin/Categories/Delete/@CategoryDeleteFormItemView.Id" method="post">
+        <h5>Nazwa: @CategoryDeleteFormItemView.Name</h5>
+        <button type="submit" class="btn btn-primary mt-5">Usuń</button>
+    </form>
+</div>

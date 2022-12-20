@@ -1,0 +1,21 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+<ul class="navbar-nav">
+@if (SignInManager.IsSignedIn(User))
+{
+    <li class="nav-item">
+            <a href="/Admin/News/P/1" class="nav-link text-dark fw-bold">Newsy</a>
+    </li>
+    <li class="nav-item">
+            <a href="/Admin/Categories" class="nav-link text-dark fw-bold">Kategorie</a>
+    </li>
+    <li class="nav-item">
+        <a href="/Admin/Comments/1" class="nav-link text-dark fw-bold">Komentarze</a>
+    </li>
+    <li class="nav-item">
+        <a href="/Admin/Users/P/1" class="nav-link text-dark fw-bold">Użytkownicy</a>
+    </li>
+}
+</ul>

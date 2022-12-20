@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\obj\Debug\net6.0\PubTmp\Out\" />
+  <dbfullsql path="I:\proc3\c# projekt\NewsFeed_nowe\NewsFeed\NewsFeed\obj\Debug\net6.0\PubTmp\EFSQLScripts\NewsFeed.Data.ApplicationDbContext.sql" />
+</sitemanifest>

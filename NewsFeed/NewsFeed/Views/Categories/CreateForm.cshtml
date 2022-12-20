@@ -1,0 +1,18 @@
+﻿@model NewsFeed.Models.Category
+@{
+    ViewData["IsAdmin"] = true;
+}
+
+<div class="container text-center mt-5 mb-5">
+    <h1>Dodaj Kategorie</h1>
+</div>
+
+<div class="container mt-5 pt-5">
+    <form action="/Admin/Categories/Create" method="post">
+        <div class="form-group">
+            <label class="fw-bold pb-2" for="nazwa">Podaj nazwę kategorii</label>
+            <input type="text" class="form-control" name="nazwa" placeholder="nazwa kategorii">
+        </div>
+        <button type="submit" class="btn btn-primary mt-5">Dodaj</button>
+    </form>
+</div>

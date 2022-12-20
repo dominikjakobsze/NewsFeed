@@ -1,0 +1,43 @@
+﻿@model NewsFeed.Models.Category
+@{
+    ViewData["IsAdmin"] = true;
+}
+<div class="container text-center mt-5 mb-5">
+    <h1>Zarządzanie Kategoriami</h1>
+</div>
+
+@{
+    var Categoryindexlistview = ViewBag.Categoryindexlist;
+}
+
+<div class="container">
+    <a asp-action="CreateForm">Dodaj Kategorie</a>
+</div>
+
+<div class="container mt-5 pt-5">
+    <div class="row g-2 mt-5">
+        <div class="col-12 pb-4">
+            <div class="row text-center fw-bold">
+                <div class="col-12 col-md-6">Nazwa Kategorii </div>
+                <div class="col-12 col-md-6">Opcje Kategorii </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row g-2 mt-5">
+        @foreach (var item in Categoryindexlistview)
+        {
+            <div class="col-12 border-bottom pb-4">
+                <div class="row text-center">
+                    <div class="col-12 col-md-6">Nazwa: @item.Name</div>
+                    <div class="col-12 col-md-6">
+                        <a href="/Admin/Categories/EditForm/@item.Id">Edytuj</a>
+                        <a href="/Admin/Categories/DeleteForm/@item.Id">Usuń</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

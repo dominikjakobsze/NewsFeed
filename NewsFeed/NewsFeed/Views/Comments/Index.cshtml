@@ -1,0 +1,59 @@
+﻿@{
+    var Comments = ViewBag.Comments;
+    var CurrentPage = ViewBag.CurrentPage;
+    var Pagination = ViewBag.Pagination;
+    ViewData["IsAdmin"] = true;
+}
+
+<div class="container text-center mt-5 mb-5 pt-5 pb-5">
+    <h1>Zarządzanie Komentarzami</h1>
+</div>
+
+<div class="container mt-5 mb-5">
+    @foreach(var item in Comments){
+        <div class="row mt-5 mb-5 border border-3 d-flex align-items-center justify-content-center p-5 g-3">
+            <div class="col-4 col-md-1 d-flex align-items-center justify-content-center">
+                <img src="~/images/user.png" class="img-fluid">
+            </div>
+            <div class="col-12 col-md-5 d-flex align-items-center justify-content-center">
+                @item.User_Id
+            </div>
+            <div class="col-12 col-md-5 d-flex align-items-center justify-content-center">
+                    <a href="/Admin/Comments/DeleteForm/@item.Id">Usuń Komentarz</a>
+            </div>
+            <div class="col-12 mt-md-5 d-flex align-items-center justify-content-center">@item.Content</div>
+            <div class="col-12 mt-md-5 d-flex align-items-center justify-content-center">
+                <a href="/R/News/@item.News_Id">Komentarz został dodany pod tym Newsem</a>
+            </div>
+        </div>
+    }
+</div>
+
+<div class="container mt-5 pt-5">
+    <div class="row d-flex flex-row align-items-center justify-content-center gap-2">
+        <div class="col-12 col-md-3">
+            <div class="form-group">
+                <select class="form-control" id="pagination">
+                    @for (int i = 1; i <= Pagination; i++)
+                    {
+                        @if (CurrentPage == i)
+                        {
+                            <option selected value="@i">Strona @i</option>
+                        }
+                        else
+                        {
+                            <option value="@i">Strona @i</option>
+                        }
+                    }
+                </select>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    const pagination = document.querySelector('#pagination');
+    pagination.addEventListener('change', (e) => {
+        window.location.href = `/Admin/Comments/${e.target.value}`;
+    })
+</script>

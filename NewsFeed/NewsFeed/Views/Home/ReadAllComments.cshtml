@@ -1,0 +1,27 @@
+﻿@{
+    var komentarze = ViewBag.Comments;
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container text-center mt-5 mb-5">
+    <h1>Czytasz wszystkie komentarze dla tego Newsa!</h1>
+</div>
+
+<div class="container">
+    <div class="row g-5">
+        @foreach (var item in komentarze)
+        {
+            <div class="col-12 p-5 d-flex justify-content-center align-items-center">
+                <div class="row d-flex justify-content-center align-items-center g-3">
+                    <div class="col-5 col-md-1 d-flex justify-content-center align-items-center">
+                        <img src="~/images/user.png" class="img-fluid" />
+                    </div>
+                    <div class="col-12 col-md-10 d-flex justify-content-center align-items-center">@item.Content</div>
+                    <div class="col-12 d-flex justify-content-center align-items-center fw-bold">
+                        Dodany przez: @item.User_Id
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
