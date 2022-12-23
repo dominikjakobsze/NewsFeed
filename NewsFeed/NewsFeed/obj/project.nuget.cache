@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iY7Q4pwAbH4qvPIhqYxD2d2ORYVN/rTvVpcZ1skxjTD733GVbGLKZIAfXAh8epnQ229cUCYMMvWEmpOFvQtRiw==",
+  "dgSpecHash": "fqw4wuI0DoOYx95E3rcqgPQrR2fyp2PL6bm+1Nrrve6dGLiDY1HwuJLdcRLg3EOA0ywkajKR4jjDUq5+5hMpGw==",
   "success": true,
-  "projectFilePath": "I:\\proc3\\c# projekt\\NewsFeed_nowe\\NewsFeed\\NewsFeed\\NewsFeed.csproj",
+  "projectFilePath": "I:\\proc3\\c# projekt\\NewsFeed\\NewsFeed\\NewsFeed\\NewsFeed.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Viking00\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Viking00\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

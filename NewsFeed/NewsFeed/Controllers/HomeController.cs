@@ -29,29 +29,32 @@ namespace NewsFeed.Controllers
             foreach(var item in kategorie)
             {
                 var newsy = await _context.News.Where(n => n.Category_Id == item.Id).OrderByDescending(n => n.Id).Take(4).ToListAsync();
-                foreach (var news in newsy)
+                if(newsy.Count > 0)
                 {
-                    if (news.Article.Length <= 140)
+                    foreach (var news in newsy)
                     {
-                        continue;
+                        if (news.Article.Length <= 140)
+                        {
+                            continue;
+                        }
+                        else
+                        {
+                            news.Article = news.Article.Substring(0, 140);
+                        }
                     }
-                    else
+                    foreach (var news in newsy)
                     {
-                        news.Article = news.Article.Substring(0, 140);
+                        if (news.Title.Length <= 24)
+                        {
+                            continue;
+                        }
+                        else
+                        {
+                            news.Title = news.Title.Substring(0, 24);
+                        }
                     }
+                    listaNewsow.Add(item.Name, newsy);
                 }
-                foreach (var news in newsy)
-                {
-                    if (news.Title.Length <= 24)
-                    {
-                        continue;
-                    }
-                    else
-                    {
-                        news.Title = news.Title.Substring(0, 24);
-                    }
-                }
-                listaNewsow.Add(item.Name, newsy);
             }
             ViewBag.ListaNewsow = listaNewsow;
             ViewBag.DisplayPaginacja = false;
@@ -165,13 +168,13 @@ namespace NewsFeed.Controllers
                 return Redirect("/");
             }
             int pagination = await _context.News.Where(n => n.Category_Id == kategoria.Id).CountAsync();
-            if (pagination % 10 != 0)
+            if (pagination % 8 != 0)
             {
-                pagination = (pagination / 10) + 1;
+                pagination = (pagination / 8) + 1;
             }
             else
             {
-                pagination = (pagination / 10);
+                pagination = (pagination / 8);
             }
 
             if (pageNumber <= 0 || pageNumber > pagination)

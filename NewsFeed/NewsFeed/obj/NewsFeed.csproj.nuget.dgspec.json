@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "I:\\proc3\\c# projekt\\NewsFeed_nowe\\NewsFeed\\NewsFeed\\NewsFeed.csproj": {}
+    "I:\\proc3\\c# projekt\\NewsFeed\\NewsFeed\\NewsFeed\\NewsFeed.csproj": {}
   },
   "projects": {
-    "I:\\proc3\\c# projekt\\NewsFeed_nowe\\NewsFeed\\NewsFeed\\NewsFeed.csproj": {
+    "I:\\proc3\\c# projekt\\NewsFeed\\NewsFeed\\NewsFeed\\NewsFeed.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "I:\\proc3\\c# projekt\\NewsFeed_nowe\\NewsFeed\\NewsFeed\\NewsFeed.csproj",
+        "projectUniqueName": "I:\\proc3\\c# projekt\\NewsFeed\\NewsFeed\\NewsFeed\\NewsFeed.csproj",
         "projectName": "NewsFeed",
-        "projectPath": "I:\\proc3\\c# projekt\\NewsFeed_nowe\\NewsFeed\\NewsFeed\\NewsFeed.csproj",
+        "projectPath": "I:\\proc3\\c# projekt\\NewsFeed\\NewsFeed\\NewsFeed\\NewsFeed.csproj",
         "packagesPath": "C:\\Users\\Viking00\\.nuget\\packages\\",
-        "outputPath": "I:\\proc3\\c# projekt\\NewsFeed_nowe\\NewsFeed\\NewsFeed\\obj\\",
+        "outputPath": "I:\\proc3\\c# projekt\\NewsFeed\\NewsFeed\\NewsFeed\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "I:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -2498,7 +2498,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (0, N''0 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 119, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
+    VALUES (0, N''0 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 64, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -2509,7 +2509,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (1, N''1 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 73, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
+    VALUES (1, N''1 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 50, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -2520,7 +2520,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (2, N''2 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 163, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
+    VALUES (2, N''2 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 128, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -2531,7 +2531,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (3, N''3 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 68, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
+    VALUES (3, N''3 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 4, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -2542,7 +2542,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (4, N''4 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 143, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
+    VALUES (4, N''4 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 127, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -2553,7 +2553,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (5, N''5 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 103, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
+    VALUES (5, N''5 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 66, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -2564,7 +2564,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (6, N''6 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 124, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
+    VALUES (6, N''6 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 40, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -2575,7 +2575,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (7, N''7 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 65, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
+    VALUES (7, N''7 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 71, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -2586,7 +2586,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (8, N''8 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 13, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
+    VALUES (8, N''8 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 136, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -2597,7 +2597,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (9, N''9 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 159, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
+    VALUES (9, N''9 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 111, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -2608,7 +2608,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (10, N''10 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 132, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
+    VALUES (10, N''10 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 77, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -2619,7 +2619,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (11, N''11 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 53, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
+    VALUES (11, N''11 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 53, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -2630,7 +2630,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (12, N''12 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 30, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
+    VALUES (12, N''12 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 2, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -2641,7 +2641,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (13, N''13 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 48, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
+    VALUES (13, N''13 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 120, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -2652,7 +2652,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (14, N''14 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 139, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
+    VALUES (14, N''14 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 84, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -2663,7 +2663,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (15, N''15 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 59, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
+    VALUES (15, N''15 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 65, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -2674,7 +2674,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (16, N''16 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 174, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
+    VALUES (16, N''16 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 104, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -2685,7 +2685,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (17, N''17 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 24, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
+    VALUES (17, N''17 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 84, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -2696,7 +2696,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (18, N''18 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 71, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
+    VALUES (18, N''18 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 156, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -2707,7 +2707,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (19, N''19 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 47, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
+    VALUES (19, N''19 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 129, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -2718,7 +2718,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (20, N''20 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 71, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
+    VALUES (20, N''20 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 134, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -2729,7 +2729,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (21, N''21 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 157, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
+    VALUES (21, N''21 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 25, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -2740,7 +2740,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (22, N''22 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 146, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
+    VALUES (22, N''22 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 14, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -2751,7 +2751,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (23, N''23 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 40, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
+    VALUES (23, N''23 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 35, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -2762,7 +2762,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (24, N''24 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 129, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
+    VALUES (24, N''24 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 2, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -2773,7 +2773,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (25, N''25 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 154, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
+    VALUES (25, N''25 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 126, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -2784,7 +2784,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (26, N''26 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 107, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
+    VALUES (26, N''26 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 24, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -2795,7 +2795,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (27, N''27 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 6, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
+    VALUES (27, N''27 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 176, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -2806,7 +2806,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (28, N''28 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 81, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
+    VALUES (28, N''28 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 3, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -2817,7 +2817,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (29, N''29 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 98, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
+    VALUES (29, N''29 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 27, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -2828,7 +2828,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (30, N''30 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 128, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
+    VALUES (30, N''30 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 68, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -2839,7 +2839,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (31, N''31 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 15, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
+    VALUES (31, N''31 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 30, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -2850,7 +2850,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (32, N''32 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 2, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
+    VALUES (32, N''32 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 167, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -2861,7 +2861,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (33, N''33 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 70, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
+    VALUES (33, N''33 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 88, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -2872,7 +2872,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (34, N''34 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 44, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
+    VALUES (34, N''34 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 67, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -2883,7 +2883,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (35, N''35 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 172, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
+    VALUES (35, N''35 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 3, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -2894,7 +2894,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (36, N''36 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 157, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
+    VALUES (36, N''36 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 102, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -2905,7 +2905,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (37, N''37 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 144, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
+    VALUES (37, N''37 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 145, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -2916,7 +2916,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (38, N''38 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 160, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
+    VALUES (38, N''38 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 53, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -2927,7 +2927,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (39, N''39 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 19, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
+    VALUES (39, N''39 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 133, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -2938,7 +2938,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (40, N''40 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 37, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
+    VALUES (40, N''40 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 25, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -2949,7 +2949,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (41, N''41 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 147, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
+    VALUES (41, N''41 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 62, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -2960,7 +2960,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (42, N''42 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 27, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
+    VALUES (42, N''42 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 173, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -2971,7 +2971,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (43, N''43 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 112, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
+    VALUES (43, N''43 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 53, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -2982,7 +2982,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (44, N''44 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 24, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
+    VALUES (44, N''44 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 52, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -2993,7 +2993,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (45, N''45 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 56, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
+    VALUES (45, N''45 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 128, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3004,7 +3004,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (46, N''46 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 108, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
+    VALUES (46, N''46 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 102, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3015,7 +3015,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (47, N''47 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 173, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
+    VALUES (47, N''47 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 2, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3026,7 +3026,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (48, N''48 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 11, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
+    VALUES (48, N''48 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 103, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3037,7 +3037,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (49, N''49 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 103, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
+    VALUES (49, N''49 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 83, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3048,7 +3048,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (50, N''50 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 145, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
+    VALUES (50, N''50 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 1, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3059,7 +3059,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (51, N''51 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 132, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
+    VALUES (51, N''51 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 135, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3070,7 +3070,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (52, N''52 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 77, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
+    VALUES (52, N''52 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 138, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3081,7 +3081,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (53, N''53 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 133, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
+    VALUES (53, N''53 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 148, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3092,7 +3092,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (54, N''54 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 108, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
+    VALUES (54, N''54 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 115, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3103,7 +3103,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (55, N''55 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 13, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
+    VALUES (55, N''55 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 112, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3114,7 +3114,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (56, N''56 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 134, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
+    VALUES (56, N''56 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 7, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3125,7 +3125,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (57, N''57 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 129, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
+    VALUES (57, N''57 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 6, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3136,7 +3136,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (58, N''58 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 148, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
+    VALUES (58, N''58 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 3, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3147,7 +3147,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (59, N''59 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 139, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
+    VALUES (59, N''59 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 65, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3158,7 +3158,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (60, N''60 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 123, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
+    VALUES (60, N''60 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 31, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3169,7 +3169,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (61, N''61 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 50, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
+    VALUES (61, N''61 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 118, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3180,7 +3180,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (62, N''62 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 95, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
+    VALUES (62, N''62 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 149, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3191,7 +3191,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (63, N''63 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 45, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
+    VALUES (63, N''63 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 53, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3202,7 +3202,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (64, N''64 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 141, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
+    VALUES (64, N''64 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 91, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3213,7 +3213,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (65, N''65 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 10, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
+    VALUES (65, N''65 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 36, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3224,7 +3224,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (66, N''66 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 115, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
+    VALUES (66, N''66 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 159, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3235,7 +3235,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (67, N''67 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 42, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
+    VALUES (67, N''67 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 167, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3246,7 +3246,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (68, N''68 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 135, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
+    VALUES (68, N''68 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 44, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3257,7 +3257,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (69, N''69 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 153, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
+    VALUES (69, N''69 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 163, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3268,7 +3268,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (70, N''70 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 20, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
+    VALUES (70, N''70 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 113, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3279,7 +3279,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (71, N''71 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 147, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
+    VALUES (71, N''71 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 61, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3290,7 +3290,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (72, N''72 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 144, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
+    VALUES (72, N''72 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 64, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3301,7 +3301,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (73, N''73 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 136, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
+    VALUES (73, N''73 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 41, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3312,7 +3312,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (74, N''74 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 85, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
+    VALUES (74, N''74 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 6, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3323,7 +3323,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (75, N''75 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 104, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
+    VALUES (75, N''75 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 173, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3334,7 +3334,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (76, N''76 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 96, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
+    VALUES (76, N''76 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 143, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3345,7 +3345,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (77, N''77 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 178, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
+    VALUES (77, N''77 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 152, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3356,7 +3356,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (78, N''78 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 134, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
+    VALUES (78, N''78 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 30, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3367,7 +3367,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (79, N''79 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 101, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
+    VALUES (79, N''79 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 68, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3378,7 +3378,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (80, N''80 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 73, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
+    VALUES (80, N''80 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 25, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3389,7 +3389,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (81, N''81 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 151, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
+    VALUES (81, N''81 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 82, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3400,7 +3400,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (82, N''82 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 29, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
+    VALUES (82, N''82 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 154, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3411,7 +3411,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (83, N''83 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 80, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
+    VALUES (83, N''83 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 44, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3422,7 +3422,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (84, N''84 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 11, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
+    VALUES (84, N''84 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 161, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3433,7 +3433,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (85, N''85 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 93, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
+    VALUES (85, N''85 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 91, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3444,7 +3444,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (86, N''86 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 160, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
+    VALUES (86, N''86 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 86, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3455,7 +3455,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (87, N''87 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 109, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
+    VALUES (87, N''87 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 155, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3466,7 +3466,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (88, N''88 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 17, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
+    VALUES (88, N''88 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 91, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3477,7 +3477,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (89, N''89 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 70, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
+    VALUES (89, N''89 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 95, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3488,7 +3488,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (90, N''90 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 53, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
+    VALUES (90, N''90 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 124, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3499,7 +3499,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (91, N''91 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 83, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
+    VALUES (91, N''91 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 78, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3510,7 +3510,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (92, N''92 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 63, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
+    VALUES (92, N''92 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 121, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3521,7 +3521,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (93, N''93 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 76, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
+    VALUES (93, N''93 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 50, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3532,7 +3532,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (94, N''94 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 72, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
+    VALUES (94, N''94 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 134, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3543,7 +3543,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (95, N''95 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 89, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
+    VALUES (95, N''95 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 125, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3554,7 +3554,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (96, N''96 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 177, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
+    VALUES (96, N''96 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 130, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3565,7 +3565,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (97, N''97 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 136, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
+    VALUES (97, N''97 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 32, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3576,7 +3576,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (98, N''98 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 137, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
+    VALUES (98, N''98 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 42, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3587,7 +3587,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (99, N''99 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 0, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
+    VALUES (99, N''99 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 146, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3598,7 +3598,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (100, N''100 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 125, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
+    VALUES (100, N''100 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 26, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3609,7 +3609,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (101, N''101 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 168, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
+    VALUES (101, N''101 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 43, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3620,7 +3620,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (102, N''102 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 158, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
+    VALUES (102, N''102 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 56, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3631,7 +3631,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (103, N''103 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 27, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
+    VALUES (103, N''103 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 167, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3642,7 +3642,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (104, N''104 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 57, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
+    VALUES (104, N''104 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 10, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3653,7 +3653,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (105, N''105 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 59, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
+    VALUES (105, N''105 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 56, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3664,7 +3664,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (106, N''106 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 88, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
+    VALUES (106, N''106 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 134, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3675,7 +3675,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (107, N''107 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 55, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
+    VALUES (107, N''107 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 72, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3686,7 +3686,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (108, N''108 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 28, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
+    VALUES (108, N''108 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 53, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3697,7 +3697,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (109, N''109 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 172, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
+    VALUES (109, N''109 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 102, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3708,7 +3708,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (110, N''110 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 33, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
+    VALUES (110, N''110 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 13, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3719,7 +3719,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (111, N''111 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 168, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
+    VALUES (111, N''111 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 37, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3730,7 +3730,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (112, N''112 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 51, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
+    VALUES (112, N''112 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 27, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3741,7 +3741,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (113, N''113 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 164, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
+    VALUES (113, N''113 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 86, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3752,7 +3752,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (114, N''114 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 109, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
+    VALUES (114, N''114 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 51, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3763,7 +3763,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (115, N''115 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 44, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
+    VALUES (115, N''115 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 43, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3774,7 +3774,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (116, N''116 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 52, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
+    VALUES (116, N''116 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 49, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3785,7 +3785,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (117, N''117 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 110, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
+    VALUES (117, N''117 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 164, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3796,7 +3796,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (118, N''118 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 163, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
+    VALUES (118, N''118 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 135, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3807,7 +3807,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (119, N''119 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 89, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
+    VALUES (119, N''119 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 93, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3818,7 +3818,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (120, N''120 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 80, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
+    VALUES (120, N''120 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 124, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3829,7 +3829,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (121, N''121 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 93, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
+    VALUES (121, N''121 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 78, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3840,7 +3840,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (122, N''122 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 155, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
+    VALUES (122, N''122 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 155, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3851,7 +3851,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (123, N''123 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 43, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
+    VALUES (123, N''123 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 34, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3862,7 +3862,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (124, N''124 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 169, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
+    VALUES (124, N''124 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 63, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3873,7 +3873,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (125, N''125 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 66, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
+    VALUES (125, N''125 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 74, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3884,7 +3884,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (126, N''126 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 22, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
+    VALUES (126, N''126 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 98, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3895,7 +3895,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (127, N''127 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 68, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
+    VALUES (127, N''127 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 160, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3906,7 +3906,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (128, N''128 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 164, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
+    VALUES (128, N''128 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 71, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3917,7 +3917,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (129, N''129 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 9, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
+    VALUES (129, N''129 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 114, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3928,7 +3928,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (130, N''130 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 81, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
+    VALUES (130, N''130 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 27, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3939,7 +3939,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (131, N''131 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 155, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
+    VALUES (131, N''131 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 93, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3950,7 +3950,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (132, N''132 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 73, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
+    VALUES (132, N''132 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 48, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3961,7 +3961,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (133, N''133 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 33, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
+    VALUES (133, N''133 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 41, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3972,7 +3972,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (134, N''134 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 74, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
+    VALUES (134, N''134 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 51, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3983,7 +3983,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (135, N''135 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 148, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
+    VALUES (135, N''135 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 166, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -3994,7 +3994,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (136, N''136 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 172, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
+    VALUES (136, N''136 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 99, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4005,7 +4005,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (137, N''137 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 127, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
+    VALUES (137, N''137 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 135, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4016,7 +4016,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (138, N''138 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 85, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
+    VALUES (138, N''138 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 49, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4027,7 +4027,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (139, N''139 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 32, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
+    VALUES (139, N''139 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 53, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4038,7 +4038,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (140, N''140 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 55, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
+    VALUES (140, N''140 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 95, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4049,7 +4049,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (141, N''141 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 168, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
+    VALUES (141, N''141 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 61, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4060,7 +4060,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (142, N''142 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 107, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
+    VALUES (142, N''142 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 95, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4071,7 +4071,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (143, N''143 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 56, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
+    VALUES (143, N''143 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 132, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4082,7 +4082,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (144, N''144 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 10, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
+    VALUES (144, N''144 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 90, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4093,7 +4093,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (145, N''145 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 16, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
+    VALUES (145, N''145 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 147, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4104,7 +4104,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (146, N''146 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 177, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
+    VALUES (146, N''146 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 149, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4115,7 +4115,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (147, N''147 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 43, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
+    VALUES (147, N''147 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 141, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4126,7 +4126,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (148, N''148 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 145, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
+    VALUES (148, N''148 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 103, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4137,7 +4137,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (149, N''149 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 29, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
+    VALUES (149, N''149 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 179, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4148,7 +4148,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (150, N''150 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 113, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
+    VALUES (150, N''150 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 58, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4159,7 +4159,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (151, N''151 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 5, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
+    VALUES (151, N''151 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 117, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4170,7 +4170,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (152, N''152 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 151, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
+    VALUES (152, N''152 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 57, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4181,7 +4181,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (153, N''153 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 16, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
+    VALUES (153, N''153 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 19, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4192,7 +4192,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (154, N''154 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 64, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
+    VALUES (154, N''154 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 20, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4203,7 +4203,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (155, N''155 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 155, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
+    VALUES (155, N''155 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 96, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4214,7 +4214,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (156, N''156 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 35, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
+    VALUES (156, N''156 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 146, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4225,7 +4225,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (157, N''157 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 166, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
+    VALUES (157, N''157 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 158, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4236,7 +4236,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (158, N''158 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 22, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
+    VALUES (158, N''158 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 14, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4247,7 +4247,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (159, N''159 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 170, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
+    VALUES (159, N''159 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 126, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4258,7 +4258,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (160, N''160 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 129, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
+    VALUES (160, N''160 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 8, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4269,7 +4269,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (161, N''161 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 50, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
+    VALUES (161, N''161 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 47, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4280,7 +4280,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (162, N''162 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 108, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
+    VALUES (162, N''162 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 77, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4291,7 +4291,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (163, N''163 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 90, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
+    VALUES (163, N''163 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 49, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4302,7 +4302,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (164, N''164 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 107, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
+    VALUES (164, N''164 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 80, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4313,7 +4313,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (165, N''165 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 19, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
+    VALUES (165, N''165 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 83, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4324,7 +4324,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (166, N''166 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 83, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
+    VALUES (166, N''166 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 124, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4335,7 +4335,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (167, N''167 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 7, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
+    VALUES (167, N''167 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 166, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4346,7 +4346,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (168, N''168 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 114, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
+    VALUES (168, N''168 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 19, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4357,7 +4357,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (169, N''169 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 113, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
+    VALUES (169, N''169 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 13, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4368,7 +4368,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (170, N''170 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 105, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
+    VALUES (170, N''170 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 63, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4379,7 +4379,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (171, N''171 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 53, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
+    VALUES (171, N''171 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 36, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4390,7 +4390,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (172, N''172 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 129, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
+    VALUES (172, N''172 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 64, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4401,7 +4401,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (173, N''173 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 118, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
+    VALUES (173, N''173 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 142, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4412,7 +4412,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (174, N''174 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 138, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
+    VALUES (174, N''174 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 108, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4423,7 +4423,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (175, N''175 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 76, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
+    VALUES (175, N''175 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 118, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4434,7 +4434,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (176, N''176 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 127, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
+    VALUES (176, N''176 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 2, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4445,7 +4445,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (177, N''177 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 155, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
+    VALUES (177, N''177 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 78, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4456,7 +4456,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (178, N''178 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 133, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
+    VALUES (178, N''178 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 111, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4467,7 +4467,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (179, N''179 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 14, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
+    VALUES (179, N''179 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 0, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4478,7 +4478,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (180, N''180 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 91, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
+    VALUES (180, N''180 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 104, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4489,7 +4489,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (181, N''181 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 6, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
+    VALUES (181, N''181 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 152, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4500,7 +4500,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (182, N''182 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 130, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
+    VALUES (182, N''182 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 170, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4511,7 +4511,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (183, N''183 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 22, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
+    VALUES (183, N''183 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 100, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4522,7 +4522,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (184, N''184 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 133, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
+    VALUES (184, N''184 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 71, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4533,7 +4533,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (185, N''185 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 98, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
+    VALUES (185, N''185 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 164, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4544,7 +4544,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (186, N''186 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 99, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
+    VALUES (186, N''186 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 80, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4555,7 +4555,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (187, N''187 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 121, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
+    VALUES (187, N''187 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 122, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4566,7 +4566,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (188, N''188 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 124, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
+    VALUES (188, N''188 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 128, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4577,7 +4577,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (189, N''189 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 117, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
+    VALUES (189, N''189 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 59, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4588,7 +4588,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (190, N''190 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 18, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
+    VALUES (190, N''190 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 71, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4599,7 +4599,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (191, N''191 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 62, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
+    VALUES (191, N''191 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 44, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4610,7 +4610,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (192, N''192 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 67, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
+    VALUES (192, N''192 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 123, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4621,7 +4621,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (193, N''193 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 35, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
+    VALUES (193, N''193 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 73, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4632,7 +4632,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (194, N''194 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 109, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
+    VALUES (194, N''194 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 81, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4643,7 +4643,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (195, N''195 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 20, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
+    VALUES (195, N''195 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 26, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4654,7 +4654,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (196, N''196 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 14, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
+    VALUES (196, N''196 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 159, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4665,7 +4665,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (197, N''197 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 105, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
+    VALUES (197, N''197 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 58, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4676,7 +4676,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (198, N''198 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 85, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
+    VALUES (198, N''198 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 162, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4687,7 +4687,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (199, N''199 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 111, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
+    VALUES (199, N''199 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 2, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4698,7 +4698,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (200, N''200 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 118, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
+    VALUES (200, N''200 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 92, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4709,7 +4709,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (201, N''201 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 78, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
+    VALUES (201, N''201 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 26, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4720,7 +4720,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (202, N''202 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 1, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
+    VALUES (202, N''202 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 18, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4731,7 +4731,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (203, N''203 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 133, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
+    VALUES (203, N''203 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 160, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4742,7 +4742,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (204, N''204 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 43, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
+    VALUES (204, N''204 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 25, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4753,7 +4753,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (205, N''205 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 94, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
+    VALUES (205, N''205 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 123, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4764,7 +4764,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (206, N''206 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 98, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
+    VALUES (206, N''206 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 64, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4775,7 +4775,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (207, N''207 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 17, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
+    VALUES (207, N''207 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 34, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4786,7 +4786,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (208, N''208 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 115, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
+    VALUES (208, N''208 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 95, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4797,7 +4797,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (209, N''209 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 84, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
+    VALUES (209, N''209 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 106, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4808,7 +4808,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (210, N''210 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 73, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
+    VALUES (210, N''210 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 104, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4819,7 +4819,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (211, N''211 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 112, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
+    VALUES (211, N''211 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 98, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4830,7 +4830,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (212, N''212 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 83, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
+    VALUES (212, N''212 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 101, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4841,7 +4841,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (213, N''213 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 96, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
+    VALUES (213, N''213 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 168, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4852,7 +4852,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (214, N''214 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 169, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
+    VALUES (214, N''214 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 158, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4863,7 +4863,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (215, N''215 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 54, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
+    VALUES (215, N''215 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 21, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4874,7 +4874,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (216, N''216 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 69, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
+    VALUES (216, N''216 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 4, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4885,7 +4885,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (217, N''217 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 138, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
+    VALUES (217, N''217 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 75, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4896,7 +4896,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (218, N''218 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 170, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
+    VALUES (218, N''218 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 93, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4907,7 +4907,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (219, N''219 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 35, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
+    VALUES (219, N''219 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 60, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4918,7 +4918,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (220, N''220 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 165, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
+    VALUES (220, N''220 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 88, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4929,7 +4929,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (221, N''221 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 78, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
+    VALUES (221, N''221 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 173, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4940,7 +4940,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (222, N''222 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 69, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
+    VALUES (222, N''222 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 70, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4951,7 +4951,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (223, N''223 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 174, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
+    VALUES (223, N''223 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 5, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4962,7 +4962,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (224, N''224 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 69, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
+    VALUES (224, N''224 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 1, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4973,7 +4973,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (225, N''225 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 168, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
+    VALUES (225, N''225 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 3, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4984,7 +4984,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (226, N''226 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 103, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
+    VALUES (226, N''226 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 5, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -4995,7 +4995,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (227, N''227 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 26, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
+    VALUES (227, N''227 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 172, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5006,7 +5006,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (228, N''228 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 122, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
+    VALUES (228, N''228 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 103, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5017,7 +5017,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (229, N''229 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 34, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
+    VALUES (229, N''229 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 50, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5028,7 +5028,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (230, N''230 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 9, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
+    VALUES (230, N''230 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 32, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5039,7 +5039,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (231, N''231 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 146, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
+    VALUES (231, N''231 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 9, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5050,7 +5050,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (232, N''232 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 8, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
+    VALUES (232, N''232 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 38, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5061,7 +5061,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (233, N''233 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 104, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
+    VALUES (233, N''233 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 82, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5072,7 +5072,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (234, N''234 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 154, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
+    VALUES (234, N''234 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 134, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5083,7 +5083,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (235, N''235 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 83, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
+    VALUES (235, N''235 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 35, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5094,7 +5094,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (236, N''236 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 96, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
+    VALUES (236, N''236 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 14, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5105,7 +5105,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (237, N''237 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 65, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
+    VALUES (237, N''237 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 6, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5116,7 +5116,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (238, N''238 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 59, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
+    VALUES (238, N''238 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 175, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5127,7 +5127,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (239, N''239 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 79, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
+    VALUES (239, N''239 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 24, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5138,7 +5138,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (240, N''240 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 165, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
+    VALUES (240, N''240 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 131, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5149,7 +5149,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (241, N''241 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 163, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
+    VALUES (241, N''241 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 69, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5160,7 +5160,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (242, N''242 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 112, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
+    VALUES (242, N''242 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 112, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5171,7 +5171,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (243, N''243 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 145, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
+    VALUES (243, N''243 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 120, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5182,7 +5182,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (244, N''244 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 87, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
+    VALUES (244, N''244 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 165, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5193,7 +5193,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (245, N''245 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 60, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
+    VALUES (245, N''245 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 176, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5204,7 +5204,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (246, N''246 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 12, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
+    VALUES (246, N''246 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 158, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5215,7 +5215,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (247, N''247 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 46, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
+    VALUES (247, N''247 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 21, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5226,7 +5226,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (248, N''248 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 178, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
+    VALUES (248, N''248 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 40, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5237,7 +5237,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (249, N''249 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 108, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
+    VALUES (249, N''249 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 166, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5248,7 +5248,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (250, N''250 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 176, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
+    VALUES (250, N''250 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 109, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5259,7 +5259,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (251, N''251 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 12, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
+    VALUES (251, N''251 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 82, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5270,7 +5270,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (252, N''252 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 67, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
+    VALUES (252, N''252 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 61, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5281,7 +5281,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (253, N''253 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 165, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
+    VALUES (253, N''253 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 82, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5292,7 +5292,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (254, N''254 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 93, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
+    VALUES (254, N''254 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 153, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5303,7 +5303,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (255, N''255 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 104, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
+    VALUES (255, N''255 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 137, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5314,7 +5314,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (256, N''256 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 117, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
+    VALUES (256, N''256 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 118, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5325,7 +5325,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (257, N''257 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 101, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
+    VALUES (257, N''257 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 32, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5336,7 +5336,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (258, N''258 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 59, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
+    VALUES (258, N''258 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 101, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5347,7 +5347,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (259, N''259 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 157, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
+    VALUES (259, N''259 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 39, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5358,7 +5358,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (260, N''260 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 154, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
+    VALUES (260, N''260 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 147, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5369,7 +5369,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (261, N''261 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 120, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
+    VALUES (261, N''261 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 23, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5380,7 +5380,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (262, N''262 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 37, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
+    VALUES (262, N''262 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 76, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5391,7 +5391,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (263, N''263 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 90, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
+    VALUES (263, N''263 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 128, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5402,7 +5402,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (264, N''264 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 109, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
+    VALUES (264, N''264 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 165, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5413,7 +5413,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (265, N''265 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 88, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
+    VALUES (265, N''265 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 23, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5424,7 +5424,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (266, N''266 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 59, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
+    VALUES (266, N''266 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 148, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5435,7 +5435,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (267, N''267 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 4, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
+    VALUES (267, N''267 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 91, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5446,7 +5446,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (268, N''268 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 54, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
+    VALUES (268, N''268 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 40, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5457,7 +5457,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (269, N''269 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 158, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
+    VALUES (269, N''269 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 142, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5468,7 +5468,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (270, N''270 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 0, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
+    VALUES (270, N''270 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 157, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5479,7 +5479,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (271, N''271 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 131, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
+    VALUES (271, N''271 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 66, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5490,7 +5490,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (272, N''272 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 82, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
+    VALUES (272, N''272 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 175, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5501,7 +5501,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (273, N''273 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 1, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
+    VALUES (273, N''273 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 131, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5512,7 +5512,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (274, N''274 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 11, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
+    VALUES (274, N''274 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 117, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5523,7 +5523,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (275, N''275 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 96, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
+    VALUES (275, N''275 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 128, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5534,7 +5534,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (276, N''276 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 50, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
+    VALUES (276, N''276 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 26, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5545,7 +5545,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (277, N''277 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 88, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
+    VALUES (277, N''277 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 29, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5556,7 +5556,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (278, N''278 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 97, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
+    VALUES (278, N''278 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 50, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5567,7 +5567,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (279, N''279 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 157, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
+    VALUES (279, N''279 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 89, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5578,7 +5578,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (280, N''280 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 118, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
+    VALUES (280, N''280 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 48, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5589,7 +5589,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (281, N''281 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 29, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
+    VALUES (281, N''281 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 146, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5600,7 +5600,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (282, N''282 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 129, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
+    VALUES (282, N''282 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 36, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5611,7 +5611,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (283, N''283 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 25, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
+    VALUES (283, N''283 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 99, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5622,7 +5622,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (284, N''284 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 48, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
+    VALUES (284, N''284 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 172, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5633,7 +5633,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (285, N''285 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 29, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
+    VALUES (285, N''285 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 80, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5644,7 +5644,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (286, N''286 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 121, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
+    VALUES (286, N''286 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 151, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5655,7 +5655,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (287, N''287 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 29, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
+    VALUES (287, N''287 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 92, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5666,7 +5666,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (288, N''288 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 49, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
+    VALUES (288, N''288 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 166, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5677,7 +5677,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (289, N''289 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 38, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
+    VALUES (289, N''289 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 168, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5688,7 +5688,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (290, N''290 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 61, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
+    VALUES (290, N''290 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 64, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5699,7 +5699,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (291, N''291 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 154, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
+    VALUES (291, N''291 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 32, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5710,7 +5710,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (292, N''292 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 117, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
+    VALUES (292, N''292 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 153, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5721,7 +5721,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (293, N''293 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 48, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
+    VALUES (293, N''293 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 15, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5732,7 +5732,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (294, N''294 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 98, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
+    VALUES (294, N''294 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 178, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5743,7 +5743,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (295, N''295 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 76, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
+    VALUES (295, N''295 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 91, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5754,7 +5754,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (296, N''296 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 177, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
+    VALUES (296, N''296 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 108, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5765,7 +5765,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (297, N''297 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 140, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
+    VALUES (297, N''297 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 28, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5776,7 +5776,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (298, N''298 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 142, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
+    VALUES (298, N''298 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 146, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5787,7 +5787,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (299, N''299 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 122, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
+    VALUES (299, N''299 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 121, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5798,7 +5798,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (300, N''300 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 20, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
+    VALUES (300, N''300 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 63, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5809,7 +5809,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (301, N''301 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 164, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
+    VALUES (301, N''301 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 18, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5820,7 +5820,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (302, N''302 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 62, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
+    VALUES (302, N''302 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 14, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5831,7 +5831,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (303, N''303 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 173, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
+    VALUES (303, N''303 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 111, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5842,7 +5842,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (304, N''304 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 135, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
+    VALUES (304, N''304 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 29, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5853,7 +5853,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (305, N''305 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 117, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
+    VALUES (305, N''305 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 91, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5864,7 +5864,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (306, N''306 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 16, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
+    VALUES (306, N''306 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 10, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5875,7 +5875,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (307, N''307 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 31, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
+    VALUES (307, N''307 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 30, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5886,7 +5886,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (308, N''308 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 133, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
+    VALUES (308, N''308 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 81, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5897,7 +5897,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (309, N''309 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 129, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
+    VALUES (309, N''309 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 10, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5908,7 +5908,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (310, N''310 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 119, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
+    VALUES (310, N''310 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 1, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5919,7 +5919,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (311, N''311 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 27, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
+    VALUES (311, N''311 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 20, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5930,7 +5930,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (312, N''312 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 127, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
+    VALUES (312, N''312 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 18, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5941,7 +5941,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (313, N''313 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 131, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
+    VALUES (313, N''313 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 1, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5952,7 +5952,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (314, N''314 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 136, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
+    VALUES (314, N''314 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 104, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5963,7 +5963,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (315, N''315 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 156, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
+    VALUES (315, N''315 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 151, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5974,7 +5974,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (316, N''316 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 111, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
+    VALUES (316, N''316 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 46, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5985,7 +5985,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (317, N''317 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 35, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
+    VALUES (317, N''317 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 113, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -5996,7 +5996,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (318, N''318 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 157, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
+    VALUES (318, N''318 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 94, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6007,7 +6007,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (319, N''319 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 124, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
+    VALUES (319, N''319 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 149, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6018,7 +6018,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (320, N''320 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 168, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
+    VALUES (320, N''320 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 143, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6029,7 +6029,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (321, N''321 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 147, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
+    VALUES (321, N''321 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 105, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6040,7 +6040,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (322, N''322 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 179, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
+    VALUES (322, N''322 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 42, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6051,7 +6051,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (323, N''323 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 155, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
+    VALUES (323, N''323 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 15, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6062,7 +6062,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (324, N''324 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 28, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
+    VALUES (324, N''324 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 73, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6073,7 +6073,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (325, N''325 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 88, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
+    VALUES (325, N''325 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 140, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6084,7 +6084,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (326, N''326 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 150, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
+    VALUES (326, N''326 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 125, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6095,7 +6095,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (327, N''327 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 107, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
+    VALUES (327, N''327 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 105, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6106,7 +6106,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (328, N''328 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 59, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
+    VALUES (328, N''328 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 130, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6117,7 +6117,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (329, N''329 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 159, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
+    VALUES (329, N''329 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 28, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6128,7 +6128,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (330, N''330 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 72, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
+    VALUES (330, N''330 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 32, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6139,7 +6139,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (331, N''331 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 37, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
+    VALUES (331, N''331 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 138, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6150,7 +6150,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (332, N''332 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 104, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
+    VALUES (332, N''332 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 41, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6161,7 +6161,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (333, N''333 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 135, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
+    VALUES (333, N''333 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 171, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6172,7 +6172,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (334, N''334 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 16, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
+    VALUES (334, N''334 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 75, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6183,7 +6183,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (335, N''335 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 81, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
+    VALUES (335, N''335 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 23, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6194,7 +6194,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (336, N''336 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 36, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
+    VALUES (336, N''336 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 83, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6205,7 +6205,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (337, N''337 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 109, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
+    VALUES (337, N''337 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 150, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6216,7 +6216,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (338, N''338 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 73, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
+    VALUES (338, N''338 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 131, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6227,7 +6227,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (339, N''339 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 74, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
+    VALUES (339, N''339 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 156, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6238,7 +6238,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (340, N''340 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 46, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
+    VALUES (340, N''340 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 86, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6249,7 +6249,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (341, N''341 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 98, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
+    VALUES (341, N''341 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 133, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6260,7 +6260,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (342, N''342 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 149, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
+    VALUES (342, N''342 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 118, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6271,7 +6271,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (343, N''343 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 4, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
+    VALUES (343, N''343 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 31, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6282,7 +6282,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (344, N''344 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 116, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
+    VALUES (344, N''344 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 6, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6293,7 +6293,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (345, N''345 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 122, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
+    VALUES (345, N''345 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 38, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6304,7 +6304,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (346, N''346 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 151, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
+    VALUES (346, N''346 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 143, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6315,7 +6315,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (347, N''347 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 94, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
+    VALUES (347, N''347 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 20, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6326,7 +6326,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (348, N''348 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 75, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
+    VALUES (348, N''348 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 2, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6337,7 +6337,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (349, N''349 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 120, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
+    VALUES (349, N''349 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 155, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6348,7 +6348,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (350, N''350 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 22, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
+    VALUES (350, N''350 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 133, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6359,7 +6359,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (351, N''351 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 75, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
+    VALUES (351, N''351 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 92, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6370,7 +6370,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (352, N''352 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 24, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
+    VALUES (352, N''352 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 168, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6381,7 +6381,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (353, N''353 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 28, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
+    VALUES (353, N''353 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 124, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6392,7 +6392,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (354, N''354 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 173, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
+    VALUES (354, N''354 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 48, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6403,7 +6403,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (355, N''355 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 51, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
+    VALUES (355, N''355 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 19, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6414,7 +6414,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (356, N''356 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 3, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
+    VALUES (356, N''356 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 101, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6425,7 +6425,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (357, N''357 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 146, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
+    VALUES (357, N''357 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 129, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6436,7 +6436,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (358, N''358 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 155, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
+    VALUES (358, N''358 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 179, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6447,7 +6447,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (359, N''359 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 61, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
+    VALUES (359, N''359 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 146, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6458,7 +6458,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (360, N''360 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 163, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
+    VALUES (360, N''360 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 17, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6469,7 +6469,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (361, N''361 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 129, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
+    VALUES (361, N''361 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 30, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6480,7 +6480,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (362, N''362 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 111, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
+    VALUES (362, N''362 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 35, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6491,7 +6491,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (363, N''363 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 43, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
+    VALUES (363, N''363 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 121, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6502,7 +6502,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (364, N''364 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 82, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
+    VALUES (364, N''364 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 53, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6513,7 +6513,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (365, N''365 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 49, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
+    VALUES (365, N''365 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 56, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6524,7 +6524,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (366, N''366 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 161, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
+    VALUES (366, N''366 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 174, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6535,7 +6535,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (367, N''367 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 162, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
+    VALUES (367, N''367 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 107, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6546,7 +6546,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (368, N''368 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 4, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
+    VALUES (368, N''368 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 169, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6557,7 +6557,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (369, N''369 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 109, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
+    VALUES (369, N''369 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 34, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6568,7 +6568,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (370, N''370 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 168, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
+    VALUES (370, N''370 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 142, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6579,7 +6579,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (371, N''371 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 161, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
+    VALUES (371, N''371 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 101, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6590,7 +6590,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (372, N''372 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 60, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
+    VALUES (372, N''372 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 0, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6601,7 +6601,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (373, N''373 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 122, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
+    VALUES (373, N''373 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 174, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6612,7 +6612,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (374, N''374 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 96, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
+    VALUES (374, N''374 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 67, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6623,7 +6623,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (375, N''375 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 123, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
+    VALUES (375, N''375 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 26, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6634,7 +6634,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (376, N''376 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 88, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
+    VALUES (376, N''376 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 46, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6645,7 +6645,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (377, N''377 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 55, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
+    VALUES (377, N''377 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 133, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6656,7 +6656,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (378, N''378 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 138, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
+    VALUES (378, N''378 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 46, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6667,7 +6667,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (379, N''379 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 177, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
+    VALUES (379, N''379 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 19, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6678,7 +6678,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (380, N''380 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 65, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
+    VALUES (380, N''380 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 127, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6689,7 +6689,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (381, N''381 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 23, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
+    VALUES (381, N''381 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 57, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6700,7 +6700,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (382, N''382 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 10, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
+    VALUES (382, N''382 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 25, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6711,7 +6711,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (383, N''383 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 102, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
+    VALUES (383, N''383 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 22, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6722,7 +6722,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (384, N''384 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 138, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
+    VALUES (384, N''384 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 31, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6733,7 +6733,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (385, N''385 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 41, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
+    VALUES (385, N''385 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 81, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6744,7 +6744,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (386, N''386 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 2, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
+    VALUES (386, N''386 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 90, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6755,7 +6755,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (387, N''387 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 134, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
+    VALUES (387, N''387 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 54, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6766,7 +6766,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (388, N''388 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 55, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
+    VALUES (388, N''388 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 69, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6777,7 +6777,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (389, N''389 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 98, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
+    VALUES (389, N''389 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 9, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6788,7 +6788,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (390, N''390 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 71, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
+    VALUES (390, N''390 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 139, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6799,7 +6799,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (391, N''391 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 40, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
+    VALUES (391, N''391 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 36, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6810,7 +6810,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (392, N''392 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 0, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
+    VALUES (392, N''392 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 30, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6821,7 +6821,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (393, N''393 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 59, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
+    VALUES (393, N''393 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 61, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6832,7 +6832,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (394, N''394 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 129, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
+    VALUES (394, N''394 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 136, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6843,7 +6843,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (395, N''395 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 18, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
+    VALUES (395, N''395 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 119, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6854,7 +6854,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (396, N''396 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 139, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
+    VALUES (396, N''396 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 159, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6865,7 +6865,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (397, N''397 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 71, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
+    VALUES (397, N''397 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 99, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6876,7 +6876,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (398, N''398 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 134, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
+    VALUES (398, N''398 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 115, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6887,7 +6887,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (399, N''399 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 72, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
+    VALUES (399, N''399 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 7, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6898,7 +6898,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (400, N''400 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 126, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
+    VALUES (400, N''400 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 5, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6909,7 +6909,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (401, N''401 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 119, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
+    VALUES (401, N''401 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 66, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6920,7 +6920,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (402, N''402 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 147, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
+    VALUES (402, N''402 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 177, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6931,7 +6931,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (403, N''403 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 132, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
+    VALUES (403, N''403 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 32, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6942,7 +6942,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (404, N''404 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 140, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
+    VALUES (404, N''404 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 62, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6953,7 +6953,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (405, N''405 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 121, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
+    VALUES (405, N''405 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 116, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6964,7 +6964,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (406, N''406 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 20, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
+    VALUES (406, N''406 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 20, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6975,7 +6975,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (407, N''407 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 121, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
+    VALUES (407, N''407 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 21, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6986,7 +6986,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (408, N''408 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 95, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
+    VALUES (408, N''408 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 29, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -6997,7 +6997,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (409, N''409 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 97, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
+    VALUES (409, N''409 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 97, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7008,7 +7008,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (410, N''410 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 122, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
+    VALUES (410, N''410 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 153, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7019,7 +7019,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (411, N''411 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 95, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
+    VALUES (411, N''411 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 179, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7030,7 +7030,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (412, N''412 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 133, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
+    VALUES (412, N''412 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 98, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7041,7 +7041,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (413, N''413 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 160, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
+    VALUES (413, N''413 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 152, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7052,7 +7052,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (414, N''414 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 133, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
+    VALUES (414, N''414 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 159, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7063,7 +7063,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (415, N''415 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 156, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
+    VALUES (415, N''415 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 104, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7074,7 +7074,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (416, N''416 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 7, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
+    VALUES (416, N''416 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 12, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7085,7 +7085,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (417, N''417 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 177, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
+    VALUES (417, N''417 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 148, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7096,7 +7096,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (418, N''418 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 117, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
+    VALUES (418, N''418 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 5, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7107,7 +7107,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (419, N''419 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 116, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
+    VALUES (419, N''419 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 112, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7118,7 +7118,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (420, N''420 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 175, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
+    VALUES (420, N''420 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 139, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7129,7 +7129,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (421, N''421 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 157, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
+    VALUES (421, N''421 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 8, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7140,7 +7140,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (422, N''422 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 160, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
+    VALUES (422, N''422 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 18, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7151,7 +7151,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (423, N''423 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 158, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
+    VALUES (423, N''423 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 9, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7162,7 +7162,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (424, N''424 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 46, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
+    VALUES (424, N''424 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 154, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7173,7 +7173,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (425, N''425 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 7, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
+    VALUES (425, N''425 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 96, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7184,7 +7184,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (426, N''426 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 113, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
+    VALUES (426, N''426 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 64, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7195,7 +7195,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (427, N''427 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 118, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
+    VALUES (427, N''427 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 54, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7206,7 +7206,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (428, N''428 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 168, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
+    VALUES (428, N''428 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 119, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7217,7 +7217,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (429, N''429 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 53, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
+    VALUES (429, N''429 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 64, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7228,7 +7228,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (430, N''430 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 84, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
+    VALUES (430, N''430 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 159, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7239,7 +7239,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (431, N''431 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 112, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
+    VALUES (431, N''431 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 132, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7250,7 +7250,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (432, N''432 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 158, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
+    VALUES (432, N''432 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 140, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7261,7 +7261,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (433, N''433 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 89, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
+    VALUES (433, N''433 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 115, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7272,7 +7272,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (434, N''434 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 178, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
+    VALUES (434, N''434 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 49, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7283,7 +7283,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (435, N''435 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 124, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
+    VALUES (435, N''435 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 173, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7294,7 +7294,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (436, N''436 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 129, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
+    VALUES (436, N''436 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 13, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7305,7 +7305,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (437, N''437 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 49, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
+    VALUES (437, N''437 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 72, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7316,7 +7316,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (438, N''438 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 21, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
+    VALUES (438, N''438 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 138, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7327,7 +7327,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (439, N''439 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 87, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
+    VALUES (439, N''439 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 22, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7338,7 +7338,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (440, N''440 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 164, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
+    VALUES (440, N''440 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 73, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7349,7 +7349,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (441, N''441 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 101, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
+    VALUES (441, N''441 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 46, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7360,7 +7360,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (442, N''442 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 5, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
+    VALUES (442, N''442 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 110, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7371,7 +7371,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (443, N''443 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 93, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
+    VALUES (443, N''443 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 85, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7382,7 +7382,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (444, N''444 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 124, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
+    VALUES (444, N''444 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 58, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7393,7 +7393,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (445, N''445 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 79, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
+    VALUES (445, N''445 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 7, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7404,7 +7404,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (446, N''446 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 0, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
+    VALUES (446, N''446 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 81, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7415,7 +7415,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (447, N''447 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 12, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
+    VALUES (447, N''447 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 39, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7426,7 +7426,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (448, N''448 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 1, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
+    VALUES (448, N''448 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 68, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7437,7 +7437,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (449, N''449 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 132, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
+    VALUES (449, N''449 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 20, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7448,7 +7448,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (450, N''450 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 57, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
+    VALUES (450, N''450 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 2, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7459,7 +7459,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (451, N''451 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 59, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
+    VALUES (451, N''451 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 0, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7470,7 +7470,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (452, N''452 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 110, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
+    VALUES (452, N''452 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 25, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7481,7 +7481,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (453, N''453 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 100, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
+    VALUES (453, N''453 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 21, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7492,7 +7492,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (454, N''454 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 15, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
+    VALUES (454, N''454 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 78, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7503,7 +7503,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (455, N''455 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 105, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
+    VALUES (455, N''455 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 118, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7514,7 +7514,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (456, N''456 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 20, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
+    VALUES (456, N''456 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 55, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7525,7 +7525,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (457, N''457 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 115, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
+    VALUES (457, N''457 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 0, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7536,7 +7536,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (458, N''458 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 165, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
+    VALUES (458, N''458 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 45, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7547,7 +7547,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (459, N''459 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 43, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
+    VALUES (459, N''459 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 179, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7558,7 +7558,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (460, N''460 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 81, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
+    VALUES (460, N''460 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 18, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7569,7 +7569,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (461, N''461 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 128, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
+    VALUES (461, N''461 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 23, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7580,7 +7580,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (462, N''462 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 112, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
+    VALUES (462, N''462 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 10, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7591,7 +7591,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (463, N''463 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 34, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
+    VALUES (463, N''463 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 178, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7602,7 +7602,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (464, N''464 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 99, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
+    VALUES (464, N''464 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 72, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7613,7 +7613,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (465, N''465 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 145, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
+    VALUES (465, N''465 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 69, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7624,7 +7624,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (466, N''466 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 38, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
+    VALUES (466, N''466 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 127, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7635,7 +7635,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (467, N''467 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 78, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
+    VALUES (467, N''467 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 161, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7646,7 +7646,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (468, N''468 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 110, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
+    VALUES (468, N''468 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 91, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7657,7 +7657,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (469, N''469 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 168, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
+    VALUES (469, N''469 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 86, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7668,7 +7668,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (470, N''470 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 48, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
+    VALUES (470, N''470 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 36, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7679,7 +7679,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (471, N''471 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 45, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
+    VALUES (471, N''471 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 97, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7690,7 +7690,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (472, N''472 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 87, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
+    VALUES (472, N''472 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 71, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7701,7 +7701,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (473, N''473 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 7, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
+    VALUES (473, N''473 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 103, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7712,7 +7712,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (474, N''474 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 58, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
+    VALUES (474, N''474 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 128, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7723,7 +7723,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (475, N''475 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 42, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
+    VALUES (475, N''475 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 7, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7734,7 +7734,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (476, N''476 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 78, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
+    VALUES (476, N''476 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 165, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7745,7 +7745,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (477, N''477 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 30, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
+    VALUES (477, N''477 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 142, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7756,7 +7756,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (478, N''478 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 14, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
+    VALUES (478, N''478 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 130, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7767,7 +7767,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (479, N''479 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 155, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
+    VALUES (479, N''479 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 139, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7778,7 +7778,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (480, N''480 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 7, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
+    VALUES (480, N''480 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 89, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7789,7 +7789,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (481, N''481 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 143, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
+    VALUES (481, N''481 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 18, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7800,7 +7800,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (482, N''482 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 39, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
+    VALUES (482, N''482 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 175, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7811,7 +7811,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (483, N''483 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 65, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
+    VALUES (483, N''483 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 103, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7822,7 +7822,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (484, N''484 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 56, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
+    VALUES (484, N''484 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 92, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7833,7 +7833,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (485, N''485 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 72, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
+    VALUES (485, N''485 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 17, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7844,7 +7844,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (486, N''486 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 142, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
+    VALUES (486, N''486 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 90, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7855,7 +7855,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (487, N''487 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 114, N''ce80db10-7845-44c3-9409-d3d610da3b0e1'')');
+    VALUES (487, N''487 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 127, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7866,7 +7866,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (488, N''488 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 91, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
+    VALUES (488, N''488 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 102, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7877,7 +7877,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (489, N''489 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 43, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
+    VALUES (489, N''489 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 87, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7888,7 +7888,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (490, N''490 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 138, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
+    VALUES (490, N''490 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 139, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7899,7 +7899,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (491, N''491 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 117, N''ce80db10-7845-44c3-9409-d3d610da3b0e4'')');
+    VALUES (491, N''491 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 6, N''ce80db10-7845-44c3-9409-d3d610da3b0e0'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7910,7 +7910,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (492, N''492 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 61, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
+    VALUES (492, N''492 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 42, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7921,7 +7921,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (493, N''493 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 74, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
+    VALUES (493, N''493 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 146, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7932,7 +7932,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (494, N''494 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 140, N''ce80db10-7845-44c3-9409-d3d610da3b0e2'')');
+    VALUES (494, N''494 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 103, N''ce80db10-7845-44c3-9409-d3d610da3b0e5'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7943,7 +7943,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (495, N''495 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 18, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
+    VALUES (495, N''495 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 21, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7954,7 +7954,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (496, N''496 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 119, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
+    VALUES (496, N''496 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 121, N''ce80db10-7845-44c3-9409-d3d610da3b0e7'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7965,7 +7965,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (497, N''497 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 59, N''ce80db10-7845-44c3-9409-d3d610da3b0e8'')');
+    VALUES (497, N''497 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 71, N''ce80db10-7845-44c3-9409-d3d610da3b0e6'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7976,7 +7976,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (498, N''498 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 167, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
+    VALUES (498, N''498 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 129, N''ce80db10-7845-44c3-9409-d3d610da3b0e9'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
@@ -7987,7 +7987,7 @@ BEGIN
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] ON;
     EXEC(N'INSERT INTO [Comment] ([Id], [Content], [News_Id], [User_Id])
-    VALUES (499, N''499 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 179, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
+    VALUES (499, N''499 <- Numer = Tutaj jest przykładowy komentarz. Suspendisse finibus consequat est, vel elementum mauris tempus eget. In cursus dui velit, non vestibulum dolor.'', 68, N''ce80db10-7845-44c3-9409-d3d610da3b0e3'')');
     IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Content', N'News_Id', N'User_Id') AND [object_id] = OBJECT_ID(N'[Comment]'))
         SET IDENTITY_INSERT [Comment] OFF;
 END;
